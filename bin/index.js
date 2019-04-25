@@ -26,8 +26,8 @@ program
 
 program.on('--help', () => {
     console.log('bootstrap静态UI脚手架');
-    console.log('用命令wmh-bt init/i projectName来创建一个项目');
-    console.log('用命令wmh-bt delete/d projectName删除指定项目');
+    console.log('用命令wmh-bsp-cli init/i <projectName> 来创建一个项目');
+    console.log('用命令wmh-bsp-cli delete/d <projectName> 删除指定项目');
 });
 
 program.parse(process.argv);

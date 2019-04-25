@@ -1,28 +1,27 @@
 {
-  "name": "wmh-cli",
+  "name": "wmh-bsp-cli",
   "version": "1.0.0",
-  "description": "test cli tools",
+  "description": "bootstrap cli tools",
   "bin": {
-    "wmh-bt": "bin/index.js"
+    "wmh-bsp-cli": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangminghuan/wmh-cli.git"
+    "url": "git+https://github.com/wangminghuan/wmh-bsp-cli.git"
   },
   "keywords": [
     "cli",
-    "test",
-    "demo"
+    "bootstrap"
   ],
   "author": "wmh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wangminghuan/wmh-cli/issues"
+    "url": "https://github.com/wangminghuan/wmh-bsp-cli/issues"
   },
-  "homepage": "https://github.com/wangminghuan/wmh-cli#readme",
+  "homepage": "https://github.com/wangminghuan/wmh-bsp-cli#readme",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
