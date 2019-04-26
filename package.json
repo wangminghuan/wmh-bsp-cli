@@ -1,6 +1,6 @@
 {
   "name": "wmh-bsp-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bootstrap cli tools",
   "bin": {
     "wmh-bsp-cli": "bin/index.js"
@@ -27,6 +27,11 @@
     "commander": "^2.20.0",
     "download-git-repo": "^1.1.0",
     "inquirer": "^6.3.1",
-    "ora": "^3.4.0"
+    "ora": "^3.4.0",
+    "request": "^2.88.0",
+    "semver": "^6.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
   }
 }
